@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePipeLine.Server", "AzurePipeLine.Server\AzurePipeLine.Server.csproj", "{E9DC90F2-758D-4CB0-A35C-1F2D866D74AB}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "azurepipeline.client", "azurepipeline.client\azurepipeline.client.esproj", "{1040F011-1241-49EF-B02C-F3A6813C96C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9DC90F2-758D-4CB0-A35C-1F2D866D74AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DC90F2-758D-4CB0-A35C-1F2D866D74AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DC90F2-758D-4CB0-A35C-1F2D866D74AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DC90F2-758D-4CB0-A35C-1F2D866D74AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1040F011-1241-49EF-B02C-F3A6813C96C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1040F011-1241-49EF-B02C-F3A6813C96C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1040F011-1241-49EF-B02C-F3A6813C96C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1040F011-1241-49EF-B02C-F3A6813C96C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1040F011-1241-49EF-B02C-F3A6813C96C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1040F011-1241-49EF-B02C-F3A6813C96C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {055C620E-2B21-41F0-B6D2-7384303C0789}
+	EndGlobalSection
+EndGlobal

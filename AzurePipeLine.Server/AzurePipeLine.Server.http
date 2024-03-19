@@ -1,0 +1,6 @@
+@AzurePipeLine.Server_HostAddress = http://localhost:5105
+
+GET {{AzurePipeLine.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
